@@ -30,10 +30,6 @@ body{
    margin-left: 40px;
 }
 
-.sub{
-    height: 100px;
-    width: 400px;
-}
 
 .btn{
     background-color: red;
@@ -102,7 +98,7 @@ form{
 }
 
 #search-input{
-    width: 60%;
+    width: ;
     max-width: 400px;
     padding: 10px 20px;
     border: none;
@@ -110,13 +106,15 @@ form{
     border-radius: 5px;
     font-size: 18px;
     color: rgb(59, 50, 50);
-    margin-top: -40px;
-    margin-right: -1650px;
+    margin-top: -45px;
+    position: absolute;
+margin-left: 800px;
 }
 
 #search-input:hover{
    box-shadow: black 2px 2px ;
 }
+
 
 
  #search-button{
@@ -128,9 +126,10 @@ form{
     /* box-shadow: 0 0 6px ; */
      cursor: pointer;
     border-radius: 5px;
-    margin-left: 10px;
-    margin-top: -40px;
+    margin-left: 1180px;
+    margin-top: -45px;
     background-color: crimson;
+    position: absolute;
 } 
 
  #search-button:hover{
