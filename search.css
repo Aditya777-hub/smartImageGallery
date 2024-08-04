@@ -23,7 +23,7 @@ body{
 
 .header-sub{
     background-color: rgb(41, 38, 38);
-    width: 1225px;
+    width: 1265px;
     height: 100px;
    margin-top: 80px;
    border-radius: 5px;
@@ -38,7 +38,7 @@ body{
    margin-top: -110px;
    border-radius: 5px;
    background-color: rgb(41, 38, 38);
-   width: 1225px;
+   width: 1265px;
 }
 
 label{
@@ -98,7 +98,7 @@ form{
 }
 
 #search-input{
-    width: ;
+   
     max-width: 400px;
     padding: 10px 20px;
     border: none;
@@ -108,7 +108,7 @@ form{
     color: rgb(59, 50, 50);
     margin-top: -45px;
     position: absolute;
-margin-left: 800px;
+margin-left: 850px;
 }
 
 #search-input:hover{
@@ -126,7 +126,7 @@ margin-left: 800px;
     /* box-shadow: 0 0 6px ; */
      cursor: pointer;
     border-radius: 5px;
-    margin-left: 1180px;
+    margin-left: 1230px;
     margin-top: -45px;
     background-color: crimson;
     position: absolute;
@@ -142,7 +142,7 @@ margin-left: 800px;
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
-    max-width: 1225px;
+    max-width: 1265px;
     margin-top: 30px;
    background-color:rgb(36, 33, 33);
    border-radius: 5px;
