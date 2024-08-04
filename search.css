@@ -1,156 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
+    ;
 }
 
-body{
-    line-height: 1.6;
-    background-color: black; 
+body {
+    /* line-height: 1.6; */
+    background-color: black;
 }
 
-.header{
-    background-color: rgb(5, 5, 5);
+.header {
+    /* background-color: rgb(5, 5, 5); */
     height: 190px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 
 }
 
 
 
-.header-sub{
+.header-sub {
     background-color: rgb(41, 38, 38);
-    width: 1265px;
+    /* width: 1265px; */
     height: 100px;
-   margin-top: 80px;
-   border-radius: 5px;
-   margin-left: 40px;
+    /* margin-top: 80px; */
+    border-radius: 5px;
+    /* margin-left: 40px; */
+
 }
 
 
-.btn{
-    background-color: red;
-    height: 55px;
-    margin-right: -4px;
-   margin-top: -110px;
-   border-radius: 5px;
-   background-color: rgb(41, 38, 38);
-   width: 1265px;
-}
 
-label{
+label {
     display: inline;
     height: 100%;
-    margin: 0 20px;
+    margin: 40px;
     line-height: 60px;
     font-size: 18px;
     color: gray;
     cursor: pointer;
     transition: color .5s;
+
 }
 
-label:hover{
-    color:crimson;
+label:hover {
+    color: crimson;
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
     margin: 40px 0 60px 0;
-     font-weight: bold;
-     font-size: 36px;
-     position: relative;
-     padding: 20px;
+    font-weight: bold;
+    font-size: 36px;
+    position: relative;
+    padding: 20px;
 }
 
-h1::before{
+h1::before {
     content: '';
     position: absolute;
     width: 100px;
     height: 3px;
     background-color: crimson;
-    bottom: 10px;  
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    animation: animate 4s linear infinite  ;
-} 
-@keyframes animate{
-0%{
-    width: 300px;
-}
-50%{
-    width: 100px;
-}
-100%{
-    width: 300px;
-}
+    animation: animate 4s linear infinite;
 }
 
-form{
+@keyframes animate {
+    0% {
+        width: 300px;
+    }
+
+    50% {
+        width: 100px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+
+.h2 {
+    background-color: rgb(36, 33, 33);
+    position: relative;
+    margin-top: 13px;
+    border-radius: 5px;
+text-align: center;
+}
+/* 
+form {
     display: flex;
+   
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
-    margin-left: -80px;
-}
+    position: absolute right; */
+    /* margin-bottom: 60px; */
+    /* margin-left: -80px; */
+/* } */
 
-#search-input{
-   
-    max-width: 400px;
+.form{
+    background-color: rgb(36, 33, 33);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center;
+}
+/* search bar */
+
+#search-input {
+    /* max-width: 400px; */
     padding: 10px 20px;
     border: none;
-    box-shadow:  rgb(10, 10, 10);
+    box-shadow: rgb(10, 10, 10);
     border-radius: 5px;
     font-size: 18px;
     color: rgb(59, 50, 50);
-    margin-top: -45px;
-    position: absolute;
-margin-left: 850px;
+    /* margin-top: -45px; */
+     position: absolute right ; 
+    /* margin-left: 850px; */
 }
 
-#search-input:hover{
-   box-shadow: black 2px 2px ;
+#search-input:hover {
+    box-shadow: black 2px 2px;
 }
+/* ṣearch button */
 
-
-
- #search-button{
+#search-button {
     padding: 10px 20px;
     background-color: rgb(106, 109, 107);
     color: white;
     border: none;
     font-size: 18px;
     /* box-shadow: 0 0 6px ; */
-     cursor: pointer;
+    cursor: pointer;
     border-radius: 5px;
-    margin-left: 1230px;
-    margin-top: -45px;
+     /* margin-left:50px;  */
+    /* margin-top: -45px; */
     background-color: crimson;
     position: absolute;
-} 
+}
 
- #search-button:hover{
+#search-button:hover {
     opacity: 0.9;
-}  
+}
 
 
-.search-results{
+.search-results {
     display: flex;
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
-    max-width: 1265px;
-    margin-top: 30px;
-   background-color:rgb(36, 33, 33);
-   border-radius: 5px;
-   margin-top: -1px;
-   margin-left: 40px;
+    /* max-width: 1225px; */
+    margin-top: 80px; 
+    background-color: rgb(36, 33, 33);
+    border-radius: 5px;
+    /* margin-top: -1px; */
+    /* margin-left: 40px; */
+    
 }
 
-.search-result{
+.search-result {
     margin-bottom: 60px;
     width: 30%;
     height: 100%;
@@ -160,18 +177,18 @@ margin-left: 850px;
     overflow: hidden;
 }
 
-.search-result img{
+.search-result img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     transition: opacity 0.2s ease-in-out;
 }
 
-.search-result:hover img{
+.search-result:hover img {
     opacity: 0.8;
 }
 
-.search-result a{
+.search-result a {
     font-size: 20px;
     text-decoration: none;
     color: rgb(180, 173, 173);
@@ -180,7 +197,7 @@ margin-left: 850px;
     text-transform: capitalize;
 }
 
-#show-more-button{
+#show-more-button {
     background-color: rgb(7, 110, 151);
     font-size: 18px;
     border: none;
@@ -194,25 +211,12 @@ margin-left: 850px;
     display: none;
 }
 
-@media screen and (max-width: 768px){
-   .search-results{
-    padding: 20px;
-   }
- 
+@media screen and (max-width: 768px) {
+    .search-results {
+        padding: 20px;
+    }
+
     .search-result {
         width: 45%;
     }
 }
-
-@media screen and (max-width: 480px){
-    .search-result {
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-
