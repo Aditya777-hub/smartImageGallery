@@ -23,7 +23,7 @@ body{
 
 .header-sub{
     background-color: rgb(41, 38, 38);
-    width: 1100px;
+    width: 1225px;
     height: 100px;
    margin-top: 80px;
    border-radius: 5px;
@@ -42,7 +42,7 @@ body{
    margin-top: -110px;
    border-radius: 5px;
    background-color: rgb(41, 38, 38);
-   width: 1100px;
+   width: 1225px;
 }
 
 label{
@@ -98,6 +98,7 @@ form{
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
+    margin-left: -80px;
 }
 
 #search-input{
@@ -118,23 +119,23 @@ form{
 }
 
 
-#search-button{
+ #search-button{
     padding: 10px 20px;
     background-color: rgb(106, 109, 107);
     color: white;
     border: none;
     font-size: 18px;
     /* box-shadow: 0 0 6px ; */
-    cursor: pointer;
+     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
     margin-top: -40px;
     background-color: crimson;
-}
+} 
 
-#search-button:hover{
+ #search-button:hover{
     opacity: 0.9;
-}
+}  
 
 
 .search-results{
@@ -142,7 +143,7 @@ form{
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
-    max-width: 1100px;
+    max-width: 1225px;
     margin-top: 30px;
    background-color:rgb(36, 33, 33);
    border-radius: 5px;
@@ -209,6 +210,7 @@ form{
         width: 100%;
     }
 }
+
 
 
 
