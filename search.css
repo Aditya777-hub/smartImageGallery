@@ -36,10 +36,10 @@ body {
 
 label {
     display: inline;
-    height: 100%;
-    margin: 40px;
+    height: 100px;
+    margin: 3px 5px  ;
     line-height: 60px;
-    font-size: 18px;
+    font-size: 15px;
     color: gray;
     cursor: pointer;
     transition: color .5s;
@@ -246,12 +246,13 @@ h1{
     width: 95%;
 }
 .label{
-    justify-content: flex-end;
+    display: flex;
 }
 .search-results{
     margin-top: 120px;
     width: 100%;
 }
+
 #search-input{
    
 }
