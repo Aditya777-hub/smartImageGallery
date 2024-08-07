@@ -228,10 +228,10 @@ form {
 
 @media screen and (max-width:320px) {
 .header-sub{
-   width: 95%;
+   width: 96%;
 }
 .header{
-    width: 320px ;
+    width: 85% ;
 }
 h1{
   font-size: 25px;
@@ -250,18 +250,17 @@ h1{
 }
 .search-results{
     margin-top: 120px;
-    width: 100%;
+    width: 66%;
 }
 
 #search-input{
-   
+   width: 50%;
 }
 #search-button{
-    width: 70px; 
-    font-size: 15px;
-    padding: 10px;
-    height: 47px;
-    display: none;
+  width: 30%;
+ padding: 10px;
+  font-size: 15px;
+  height: 65%;
 }
 
 }
