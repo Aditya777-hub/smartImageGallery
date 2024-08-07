@@ -228,7 +228,7 @@ form {
 
 @media screen and (max-width:320px) {
 .header-sub{
-   width: 320px;
+   width: 95%;
 }
 .header{
     width: 320px ;
@@ -236,25 +236,31 @@ form {
 h1{
   font-size: 25px;
   text-align: center;
+  
 }
 .h2{
     height: 100px;
+    width: 95%;
+}
+.form{
+    width: 95%;
 }
 .label{
     justify-content: flex-end;
 }
 .search-results{
     margin-top: 120px;
-    width: 280px;
+    width: 100%;
 }
 #search-input{
-    margin-left: -70px;
+   
 }
 #search-button{
     width: 70px; 
     font-size: 15px;
     padding: 10px;
     height: 47px;
+    display: none;
 }
 
 }
