@@ -35,14 +35,13 @@ body {
 
 label {
     display: inline;
-    height: 100px;
     margin: 3px 5px  ;
     line-height: 60px;
-    font-size: 15px;
+    font-size: 20px;
     color: gray;
     cursor: pointer;
     transition: color .5s;
-
+    margin-right: 15px;
 }
 
 label:hover {
@@ -104,7 +103,7 @@ form {
     /* margin-left: -80px; */
 /* } */
 
-.form{
+/* .form{
     background-color: rgb(36, 33, 33);
     height: 70px;
     width: 100%;
@@ -114,8 +113,12 @@ form {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-}
+} */
 
+form{
+    display: inline-block;
+    margin-left: 40px;
+}
 
 
 /* search bar */
@@ -147,7 +150,7 @@ form {
     /* box-shadow: 0 0 6px ; */
     cursor: pointer;
     border-radius: 5px;
-     margin-left: 25px; 
+     margin-left: 5px; 
     /* margin-top: -45px; */
     background-color: crimson;
     position: absolute;
@@ -164,7 +167,7 @@ form {
     padding: 20px;
     flex-wrap: wrap;
     /* max-width: 1225px; */
-    margin-top: 80px; 
+    
     background-color: rgb(36, 33, 33);
     border-radius: 5px;
     /* margin-top: -1px; */
@@ -282,27 +285,31 @@ h1{
         height: 110px;
         width: 118%;
     }
-    .form{
+    /* .form{
         width: 118%;
+    } */
+
+    form{
+      margin-right: 140px;
     }
     .label{
         display: flex;
     }
     .search-results{
-        margin-top: 120px;
-        width: 93%;
+        margin-top: 100px;
+        width: 95%;
         justify-content: space-between;
         padding: 10px;
     }
     
     #search-input{
-       width: 55%;
+       width: 80%;
     }
     #search-button{
-      width: 30%;
+      width: 25%;
      padding: 10px;
       font-size: 15px;
-      height: 68%;
+      height: 44%;
       margin-left: 5px;
     }
 
