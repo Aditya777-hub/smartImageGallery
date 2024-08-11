@@ -230,7 +230,7 @@ form{
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:375px) {
 .header-sub{
    width: 96%;
 }
@@ -246,9 +246,15 @@ h1{
     height: 100px;
     width: 95%;
 }
-.form{
-    width: 95%;
+ .form{
+   
+} 
+
+form{
+    width: 200px;
+    
 }
+
 .label{
     display: flex;
 }
@@ -258,13 +264,15 @@ h1{
 }
 
 #search-input{
-   width: 50%;
+ margin-left: -30px;
 }
+
 #search-button{
   width: 30%;
  padding: 10px;
   font-size: 15px;
   height: 65%;
+  
 }
 
 }
