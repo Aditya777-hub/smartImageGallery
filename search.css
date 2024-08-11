@@ -232,10 +232,10 @@ form{
 
 @media screen and (max-width:375px) {
 .header-sub{
-   width: 96%;
+   width: 95%;
 }
 .header{
-    width: 85% ;
+    width: 85%;
 }
 h1{
   font-size: 25px;
@@ -282,7 +282,7 @@ form{
        width: 118%;
     }
     .header{
-        width: 85% ;
+        width: 90% ;
     }
     h1{
       font-size: 25px;
@@ -305,7 +305,7 @@ form{
     }
     .search-results{
         margin-top: 100px;
-        width: 95%;
+        width: 101%;
         justify-content: space-between;
         padding: 10px;
     }
