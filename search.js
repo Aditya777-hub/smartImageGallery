@@ -76,3 +76,7 @@ showMore.addEventListener("click", () => {
 window.onload = () => {
     searchImages();
 };
+
+function reload(){
+    window.location.reload()
+}
